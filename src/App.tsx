@@ -67,7 +67,7 @@ function App() {
     <div className=" flex w-full py-24 min-h-screen items-center justify-center">
       <div className="w-400 h-full flex justify-between gap-20">
         <ListSelect
-          hasFilters
+          // hasFilters
           users={usersList.first}
           handleSelectUser={(id: string) =>
             handleSelectUser(ListsEnum.first, id)
